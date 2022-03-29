@@ -17,8 +17,23 @@ npx install-peerdeps --dev @pocket-tools/tsconfig
 
 2. You will see several dependencies were installed. Now, create (or update) a `tsconfig.json` file with the following content:
 
+If you don't already have one the NPM post install script will create it for you.
 ```json
 {
-  "extends": "@pocket-tools/tsconfig'
+  "extends": "@pocket-tools/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "exclude": [
+    "node_modules/",
+    "dist/"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/config"
+  ]
 }
 ```
+
+Concepts are used from https://github.com/Chatie/tsconfig

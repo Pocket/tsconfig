@@ -13,17 +13,12 @@
       "es2020.string",
       "es2020.symbol.wellknown"
     ],
-    "outDir": "dist",
-    "rootDir": "src",
     "removeComments": true,
     "esModuleInterop": true,
     "noEmitOnError": false,
     "sourceMap": true,
     "inlineSources": true,
     "sourceRoot": "/",
-    "strictNullChecks": true,
     "declaration": true
-  },
-  "exclude": ["node_modules", "src/test/*", "src/**/*.spec.ts", "src/**/*.integration.ts"],
-  "include": ["src/**/*.ts", "src/config"]
+  }
 }
