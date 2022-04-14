@@ -12,7 +12,7 @@ jobs:
   validator:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579 # tag=v2
+      - uses: actions/checkout@f25a3a9f25bd5f4c5d77189cab02ff357b5aedeb # tag=v2
       - uses: RoadieHQ/backstage-entity-validator@70da3dfb77cb4d0e150b9f6de953b806837d16df # tag=v0.3.2
         with:
           path: 'catalog-info.yaml'
@@ -20,7 +20,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579 # tag=v2
+      - uses: actions/checkout@f25a3a9f25bd5f4c5d77189cab02ff357b5aedeb # tag=v2
       - uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c # tag=v2.4.1
         with:
           node-version: '16.x'
