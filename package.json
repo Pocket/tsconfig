@@ -30,7 +30,7 @@
     "@pocket-tools/eslint-config": "2.0.0",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
-    "semantic-release": "19.0.3"
+    "semantic-release": "19.0.5"
   },
   "publishConfig": {
     "cache": "~/.npm",
