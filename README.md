@@ -4,7 +4,7 @@ These are settings for TSConfig used by Pocket.
 
 ## What it does
 
-This setups up your Typescript tslint settings based on best practices. Check the [tsconfig.json](https://github.com/Pocket/tsconfig/blob/main/tsconfig.json) file to see what is included. Feel free to override the rules that make sense for you.
+This sets up your Typescript tslint settings based on best practices. Check the [tsconfig.json](https://github.com/Pocket/tsconfig/blob/main/tsconfig.json) file to see what is included. Feel free to override the rules that make sense for you.
 
 ## Installing
 
