@@ -12,12 +12,12 @@ This setups up your Typescript tslint settings based on best practices. Check th
 
 ```
 npm i -D @pocket-tools/tsconfig # or yarn install --dev @pocket-tools/tsconfig
-npx install-peerdeps --dev @pocket-tools/tsconfig
 ```
 
 2. You will see several dependencies were installed. Now, create (or update) a `tsconfig.json` file with the following content:
 
 If you don't already have one the NPM post install script will create it for you.
+
 ```json
 {
   "extends": "@pocket-tools/tsconfig",
@@ -36,4 +36,4 @@ If you don't already have one the NPM post install script will create it for you
 }
 ```
 
-Concepts are used from https://github.com/Chatie/tsconfig
+Concepts are used from <https://github.com/Chatie/tsconfig>
