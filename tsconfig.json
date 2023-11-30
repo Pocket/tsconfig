@@ -19,6 +19,10 @@
     "sourceMap": true,
     "inlineSources": true,
     "sourceRoot": "/",
-    "declaration": true
+    "declaration": true,
+    // Helps out Sentry traces 
+    // https://docs.sentry.io/platforms/node/sourcemaps/uploading/typescript/#dealing-with-tslib
+    "importHelpers": true,
+    "noEmitHelpers": true
   }
 }
