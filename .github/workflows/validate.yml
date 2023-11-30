@@ -1,0 +1,14 @@
+name: Build
+ 
+on:
+    pull_request:
+      branches: ["main"]  
+ 
+jobs:
+  backstage_validator:
+      runs-on: ubuntu-latest
+      steps:
+       - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
+       - uses: RoadieHQ/backstage-entity-validator@v0.3.11
+         with:
+           path: 'catalog-info.yaml'
