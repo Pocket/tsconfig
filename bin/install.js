@@ -3,7 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import { pkgUp } from 'pkg-up';
+import { packageUp } from 'package-up';
 
 import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -27,7 +27,7 @@ const TSCONFIG_JSON_CONTENT = `{
 
 async function main() {
   const cwd = path.join(__dirname, '..', '..');
-  const pkg = await pkgUp({ cwd });
+  const pkg = await packageUp({ cwd });
   if (!pkg) {
     return 0;
   }

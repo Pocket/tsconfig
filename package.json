@@ -23,14 +23,13 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "typescript": "4.7.4",
-    "pkg-up": "4.0.0"
+    "typescript": "^5.0.0",
+    "package-up": "5.0.0"
   },
   "devDependencies": {
-    "@pocket-tools/eslint-config": "2.0.0",
-    "@semantic-release/changelog": "6.0.2",
+    "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "semantic-release": "19.0.5"
+    "semantic-release": "22.0.8"
   },
   "publishConfig": {
     "cache": "~/.npm",
@@ -50,5 +49,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:Pocket/tsconfig.git"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
